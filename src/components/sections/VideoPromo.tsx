@@ -10,7 +10,7 @@ export default function VideoPromo({
   title,
   levels,
   cta,
-  image, // اختیاری
+  image,
 }: {
   badge?: string
   minutes?: number

@@ -13,24 +13,20 @@ const page: Page = {
   sections: [
     {
       type: 'hero-tabs',
-     // src/content/pages/students.ts
 left: {
   title: 'با آی‌نو،\nموفقیت همیشه همراهت است.',
   chips: ['ابتدایی', 'متوسطه اول', 'متوسطه دوم'],
 
-  // دسکتاپ
   image: { src: '/img/backpack.png', alt: 'کوله و میز مطالعه' },
 
   kpi: { value: '2500', label: 'VIDEOS' },
 
-  // بنر بالای موبایل (اختیاری)
   mobileHero: {
     title: '…',
     chips: ['…','…'],
     image: { src: '/img/robot.png' }
   },
 
-  // بنر پایین موبایل
   mobileBanner: {
     image: { src: '/img/backpack-m.png', alt: 'کوله نسخه موبایل' },
     panelColor: '#1f3e75',

@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
-import { Noto_Sans_Arabic } from 'next/font/google' // ← fallback برای فارسی
+import { Noto_Sans_Arabic } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: 'آینو',

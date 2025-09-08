@@ -1,4 +1,3 @@
-// src/content/types.ts
 export type Image = { src: string; alt?: string }
 
 export type VideoPromo = {
@@ -6,7 +5,6 @@ export type VideoPromo = {
   badge?: string
   minutes?: number
   title: string
-  // اگر در موبایل تصویر نداشتیم هم ارور نگیریم
   image?: Image
   levels: { label: string }[]
   cta?: { label: string; href: string }
@@ -25,7 +23,6 @@ export type TabsPanel = {
   }[]
 }
 
-/** ستون چپ + تب‌ها و پنل سمت راست */
 export type HeroTabs = {
   type: 'hero-tabs'
   left: {
@@ -34,7 +31,6 @@ export type HeroTabs = {
     image: Image
     kpi?: { value: string; label: string }
 
-    // 👇 اضافه‌های جدید برای موبایل
     mobileHero?: {
       title: string
       chips: string[]

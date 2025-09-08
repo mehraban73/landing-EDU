@@ -14,12 +14,10 @@ export default function Teachers({
       className="relative mt-8 rounded-3xl p-4 sm:p-5 md:p-7 shadow-md overflow-visible"
       style={{ background: 'var(--page-primary)' }}
     >
-      {/* فقط دسکتاپ */}
       <h3 className="hidden md:block text-white text-base sm:text-lg md:text-xl font-bold mb-4 md:mb-5">
         {title}
       </h3>
 
-      {/* موبایل: اسکرول افقی + snap */}
       <div className="md:hidden -mx-4 px-4 overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory pr-16">
         <div className="flex gap-3">
           {items.map((t, i) => (
@@ -47,7 +45,6 @@ export default function Teachers({
         </div>
       </div>
 
-      {/* دسکتاپ: گرید ۴ ستونه */}
       <div className="hidden md:grid md:grid-cols-4 gap-4">
         {items.map((t, i) => (
           <article key={i} className="rounded-2xl bg-white p-4 shadow-sm min-h-[120px]">
